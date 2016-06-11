@@ -1,0 +1,120 @@
+
+.container{
+	width: 70%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-self: center;
+	padding-top: 80px;
+	/*background-color: red;*/
+}
+#cityBikeLogo{
+	display: block;
+	margin: auto;
+	height: 300px;
+	margin-top: 125px;
+	margin-bottom: 50px;
+}
+.btn{
+	font-size: 3rem;
+	padding: 20px;
+	border-radius: 90px;
+	color: white;
+	box-shadow: 3px 3px 15px #999999;
+	margin: 1%;
+}
+.btn2{
+	font-size: 4rem;
+	/*padding: 20px;*/
+	border-radius: 30px;
+	color: 	#808889;
+	box-shadow: 3px 8px 15px #999999;
+	margin: 5%;
+}
+
+
+
+#city-routes{
+	background-image: url("city.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.btn:active{
+	opacity: 0.7;
+	color: white;
+}
+.btn::selection{
+	color: white;
+}
+#nature-routes{
+	background-image: url("nature.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+#sport-routes{
+	background-image: url("sport.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+#text{
+	margin: auto;
+	margin-top: 100px;
+	font-size: 4rem;
+}
+.btn-primary{
+	
+	border-radius: 50px;
+}
+
+.text{
+	background-color:#F0F0F0;
+	padding: 50px;
+	border: 5px solid #B8B8B8 ;
+	
+	
+}
+.te{
+	border: 5px solid #B8B8B8 ;
+	border-right:5px solid #B8B8B8;
+
+}
+.arrow{
+	font-size:60px;
+	/*border-top: 45px;*/
+}
+.search{
+	font-size:90px;
+	/*border-top: 45px;*/
+}
+table {
+	margin: auto;
+}
+.img {
+	margin-left: 50%;
+}
+.blanktext{
+	background-color:white;
+	padding: 50px;
+	border: 3px solid white ;
+}
+.blank_row
+{
+	height: 40px ; /* Overwrite any previous rules */
+	background-color: #FFFFFF;
+}
+#heading p,h1,select { 
+	background-color: gold;
+	display : inline-block; 
+}
+label {
+	font-size: 3rem;
+
+}
+select {
+	width:150px;
+	height:28px; 
+	border-radius: 8px;
+}
+.modal-content{
+	background-color:#e7e2dd;
+}
